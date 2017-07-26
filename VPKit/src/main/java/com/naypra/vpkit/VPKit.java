@@ -2,6 +2,7 @@ package com.naypra.vpkit;
 
 import android.content.Context;
 
+import com.naypra.vpkit.common.VPKitDialog;
 import com.naypra.vpkit.preference.VPKitPreferences;
 import com.naypra.vpkit.permission.VPKitPermissionsChecker;
 
