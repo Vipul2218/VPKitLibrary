@@ -21,6 +21,16 @@ public class VPKitLog {
             android.util.Log.d(TAG, msg);
     }
 
+    public static void d(String... args) {
+        if (DEBUG) {
+            StringBuffer strBuffer = new StringBuffer();
+            for (String temp : args) {
+                strBuffer.append(temp).append(" ");
+            }
+            android.util.Log.d(TAG, strBuffer.toString());
+        }
+    }
+
     public static void v(String msg) {
         if (DEBUG)
             android.util.Log.v(TAG, msg);
