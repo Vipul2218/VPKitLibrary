@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VPKit</string>
+
+    <!--permission-->
+    <string name="tips_permission_request_title">Access Request</string>
+    <string name="tips_permission_request_content">You need to grant access to Read External Storage, Write External Storage, Read Contacts, Write Contacts, Send SMS, Call Phone.</string>
+    <string name="go_and_grant_permission">Go to the Settings</string>
+    <string name="deny_and_quit">Deny</string>
+</resources>
